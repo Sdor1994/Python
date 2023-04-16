@@ -9,7 +9,7 @@ mnDigit = 0
 i=0
 
 while i <= digit - 1 :
-    num = int (input("Введите значение монеты: "))
+    num = int (input("Введите значение монеты 0- решко 1- орел: "))
     if num < 0 or num > 1 :
         num = int (input("Некоректные данные! Введите допустимое значение монеты: "))
     if num == 0 :
@@ -19,6 +19,6 @@ while i <= digit - 1 :
     i += 1 
     
 if plDigit > mnDigit :
-    print(f"Необходимо перевернуть {mnDigit}")
+    print(f"Необходимо перевернуть {mnDigit} орлов")
 else :
-    print(f"Необходимо перевернуть {plDigit}")
+    print(f"Необходимо перевернуть {plDigit} решек")
