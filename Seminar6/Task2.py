@@ -5,7 +5,6 @@ def find_indexes(arr, min_val, max_val):
             indexes.append(i)
     return indexes
 
-# пример использования
 arr = [1, 3, 5, 7, 9, 11, 13, 15, 17]
 min_val = 5
 max_val = 15
